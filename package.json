@@ -1,0 +1,30 @@
+{
+  "name": "@redblocktree/bundler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amansx/bundler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amansx/bundler/issues"
+  },
+  "homepage": "https://github.com/amansx/bundler#readme",
+  "dependencies": {
+    "webpack": "^5.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "@babel/preset-typescript": "^7.12.1",
+    "babel-loader": "^8.2.1",
+    "html-webpack-plugin": "^5.0.0-alpha.14"
+  }
+}
