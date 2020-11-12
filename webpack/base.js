@@ -20,6 +20,9 @@ class BaseConfig {
 		rules: []
 	};
 	plugins = [];
+	resolve = {
+		extensions: ['.wasm', '.mjs', '.json', '.js', '.jsx', '.ts', '.tsx']
+	};
 
 	addIndexToEntry() {
 		this.entry[DEFAULTS.ENTRY] = {

@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "loglevel": "^1.7.0",
+    "loglevel-plugin-prefix": "^0.8.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
