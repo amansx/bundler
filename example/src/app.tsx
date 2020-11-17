@@ -1,6 +1,11 @@
 import React from 'react';
 import rdom  from 'react-dom';
 
+import {aman} from 'styles/app.css';
+
+console.log(aman);
+console.log(process.env.FEATURE_FLAG_1);
+
 import AppAnalytics from './analytics';
 const Analytics = new AppAnalytics((msg) => console.log(msg))
 
