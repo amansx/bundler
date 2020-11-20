@@ -4,26 +4,27 @@ Bundler.
 
 	init('webpack').
 
+	context().
+		dir('src').
+
 	entry()
-		.name('app')
-		.path('./app.tsx').
+		.glob('*.tsx').
 
 	resolve().
 		module().dir('src').
-
-	context().
-		dir('src').
 
 	output().
 		setDefaults().
 
 	use(
+		Bundler.prefab('typescriptWorker'),
 		Bundler.prefab('typescript'),
 		Bundler.prefab('postcss')
 	).
 
 	use(
-		Bundler.prefab('featureFlags')
+		Bundler.prefab('featureFlags'),
+		Bundler.prefab('markup')
 	).
 
 	watch()

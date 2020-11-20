@@ -22,7 +22,8 @@ class Bundler {
 	}
 
 	prefab(bundlerName) {
-		return injector.resolve(`${bundlerName}Prefab`)
+		const prefab = injector.resolve(`${bundlerName}Prefab`);
+		return prefab;
 	}
 }
 
